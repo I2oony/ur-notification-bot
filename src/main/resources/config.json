@@ -1,0 +1,45 @@
+{
+    "version": 1.0,
+    "config": {
+        "service": {
+            "url": "https://auction.tdera.ru/api",
+            "login": "62029",
+            "password": "5478"
+        },
+        "bot": {
+            "url": "https://api.telegram.org/bot",
+            "token": "6023941900:AAHgga3lusqPDZ3XYLvSZ1-Eu-aUG02OGP8",
+            "groupId": -1001954662764
+        }
+    },
+    "info": {
+
+    },
+    "shops": {
+        "regions": {
+            "whitelist": [22],
+            "blacklist": [11],
+            "cities": [162]
+        },
+        "whitelist": [
+            578,
+            851,
+            922,
+            2665
+        ],
+        "blacklist": [
+            2577,
+            1790
+        ]
+    },
+    "emojiMap": {
+        "unicorn": {
+            "utf": "\\x2b\\x31\\x46\\x39\\x38\\x34\\x9",
+            "description": "Любимый магазин"
+        },
+        "walkingMan": {
+            "utf": "\\xF0\\x9F\\x9A\\xB6",
+            "description": "Дальность магазина (в км): х1 - 0-5 (Просвет, Академ), х2 - 5-10 (Выборгская сторона - до Невы), х3 - 10-15"
+        }
+    }
+}
